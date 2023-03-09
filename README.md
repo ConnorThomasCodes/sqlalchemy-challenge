@@ -10,7 +10,7 @@ After our analysis and visualization with pandas, we create a Flask app with sim
   
   /api/v1.0/tobs - returns a list of recorded temperatures from the most recent year at the most active station (USC00519281)
   
-  /api/v1.0/<start> - returns minimum, average, and maximum recorded temperature for time period beginning at start date and going to end of dataset
+  /api/v1.0/&ltstart&gt - returns minimum, average, and maximum recorded temperature for time period beginning at start date and going to end of dataset
   
-  /api/v1.0/<start>/<end> - returns minimum, average, and maximum recorded temperature for time period from start date to end date
+  /api/v1.0/&ltstart&gt/&ltend&gt - returns minimum, average, and maximum recorded temperature for time period from start date to end date
   
